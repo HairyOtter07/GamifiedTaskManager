@@ -1,5 +1,5 @@
 <template>
-  <Body class="bg-stone-900">
+  <Body class="bg-sunset-gradient">
     <Head>
       <Link rel="preconnect" href="https://fonts.googleapis.com" />
       <Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />

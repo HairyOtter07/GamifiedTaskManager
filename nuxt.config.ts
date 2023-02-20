@@ -8,6 +8,6 @@ export default defineNuxtConfig({
     "~/assets/css/tailwind.css",
   ],
   runtimeConfig: {
-    mongoUrl: process.env.MONGO_URL,
+    mongoUrl: process.env.MONGODB_URI,
   },
 });

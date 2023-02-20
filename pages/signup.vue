@@ -37,6 +37,10 @@
   </div>
 </template>
 <script setup>
+useHead({
+  title: "Sign Up",
+});
+
 const { update } = await useSession();
 
 const email = ref("");

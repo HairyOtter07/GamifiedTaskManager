@@ -75,6 +75,10 @@
 <script setup lang="ts">
 import { RadioGroup, RadioGroupLabel, RadioGroupOption } from "@headlessui/vue";
 
+useHead({
+  title: "Edit Quest",
+});
+
 const { session } = await useSession();
 
 if (!session.value?.questId) {

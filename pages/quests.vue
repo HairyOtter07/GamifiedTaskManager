@@ -56,6 +56,11 @@
 </template>
 <script setup lang="ts">
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from "@headlessui/vue";
+
+useHead({
+  title: "Quest Log",
+});
+
 const { session, update } = await useSession();
 
 const activeTab = ref(0);

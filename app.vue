@@ -13,7 +13,7 @@
 <script setup lang="ts">
 useHead({
   titleTemplate: (titleChunk) => {
-    return titleChunk && titleChunk !== "Home" ? `${titleChunk} | Task Manager` : "Task Manager";
+    return titleChunk && titleChunk !== "Home" ? `${titleChunk} | Task Hero` : "Task Hero";
   },
 });
 </script>

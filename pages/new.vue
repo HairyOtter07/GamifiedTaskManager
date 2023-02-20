@@ -75,6 +75,10 @@
 <script setup lang="ts">
 import { RadioGroup, RadioGroupLabel, RadioGroupOption } from "@headlessui/vue";
 
+useHead({
+  title: "New Quest",
+});
+
 const title = ref("");
 const description = ref("");
 const category = ref("");

@@ -12,7 +12,7 @@
     <div class="flex h-full w-full max-w-7xl flex-col items-center justify-center space-y-16">
       <div class="prose prose-xl prose-invert prose-h1:font-mono">
         <h1>
-          Task Manager
+          Task Hero
         </h1>
       </div>
       <div v-if="loggedIn" class="flex flex-col space-y-6">
@@ -35,6 +35,10 @@
   </div>
 </template>
 <script setup>
+useHead({
+  title: "Home",
+});
+
 const { session, refresh } = await useSession();
 await refresh();
 const loggedIn = computed(() => {

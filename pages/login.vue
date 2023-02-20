@@ -31,6 +31,10 @@
   </div>
 </template>
 <script setup>
+useHead({
+  title: "Log In",
+});
+
 const { update } = await useSession();
 const email = ref("");
 const password = ref("");

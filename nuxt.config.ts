@@ -10,4 +10,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     mongoUrl: process.env.MONGODB_URI,
   },
+  nitro: {
+    preset: "vercel",
+  },
 });

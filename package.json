@@ -5,10 +5,27 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint ."
   },
   "devDependencies": {
+    "@iconify/vue": "^4.1.0",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@sidebase/nuxt-session": "^0.2.7",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "^18.14.0",
+    "eslint": "^8.34.0",
+    "eslint-plugin-tailwindcss": "^3.8.3",
+    "mongoose": "^6.9.2",
+    "mongoose-bcrypt": "^1.10.1",
     "nuxt": "^3.2.2",
-    "tailwindcss": "^3.2.7"
+    "tailwindcss": "^3.2.7",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@headlessui/tailwindcss": "^0.1.2",
+    "@headlessui/vue": "^1.7.10",
+    "sqlite3": "^5.1.4"
   }
 }
